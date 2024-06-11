@@ -44,7 +44,7 @@ function loadGoogleMapsScript() {
     } else {
       // L'API Google Maps n'est pas encore chargée, chargez le script de l'API
       var script = document.createElement('script');
-      script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAUPKPo6osvXu7VzHClxqeV8Oo3pb0wQMY&libraries=places&callback=initMap';
+      script.src = 'API';
       script.async = true;
   
       // Attachez la fonction de rappel à l'objet `window` pour qu'elle soit appelée une fois le script chargé
