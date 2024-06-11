@@ -1,0 +1,27 @@
+<html>
+<head>
+  <!-- Affichage du parametre dans le titre dela page -->
+  <title>recherche d'un article</title>
+  <meta charset="utf-8"/>
+</head>
+
+<body>
+	<center>
+		RECHERCHE D'ARTICLES
+        <br /><br />
+		<table border=1 bgcolor="#CCCCCC">
+			<form method="get" action="afficheRecherchev2.php">
+				<tr>
+					<td> Recherche de tous les produits dont le prix est supérieur à : </td>
+					<td> <input type="text" name="prix"
+                        pattern="^[0-9]{1,10}$" required> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="submit" value="Rechercher les articles"></td>
+				</tr>
+			</form>
+		</table>
+	</center>
+</body>
+</html>

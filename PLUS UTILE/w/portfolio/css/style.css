@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/*Index*/
+.clique:hover{
+    font-weight: bold;
+    font-size: 1em;
+    align-self: center;
+}
+.clique{
+    text-decoration: none;
+    color:black;
+}
+.CV ul{
+    margin-left: 0em;
+    padding-left: 0em;
+}
+.ligne a, .ligne p, .ligne h3, .ligne h2{
+    align-self: center;
+    height: auto;
+    display: block;
+    padding-left: 0.5em;
+    margin-bottom: 0em;
+}
+.CV{
+	margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.CV header h1:first-child, .CV header h2{
+	text-align: center;
+}
+.formation h2, .formation h3{
+	margin-bottom:0;
+	margin-top: 0;
+}
+.entete{
+	width: 100%;
+    margin-bottom: 2.5em;
+}
+.left, .right{
+    text-align: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.competences ul{
+    margin:0em;
+    padding: 0em;
+}
+.formation li, .experiences li{
+    list-style-type:"\1F816";
+    text-align: initial;
+}
+.competences li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.couleur2{
+    color: #5C5552;
+}
+.CV section{
+    margin-top: 2em;
+}
+.logo_experiences{
+    height: 75px;
+}
+.formation ul{
+    max-width: 500px;
+}
+@media screen and (prefers-color-scheme: dark) {
+    body{
+        background-color: black;
+        color: #F7F4F0;
+    }
+    .clique{
+        color: #F7F4F0;
+    }
+    .right img{
+        background-color: #F7F4F0;
+        border-radius: 10px;
+    }
+    .left img{
+        filter: invert(100%);
+    }
+    .couleur2{
+        color: #DECBB7;
+    }
+}
+/*Hobby*/
+.hobby{
+    text-align: center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5em;
+}
+.space{
+    margin-bottom: 1em;
+}
+.hobby article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video .enligne section{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: min-content;
+}
+.video p{
+    max-width: 700px;
+}
+.modelisation ul{
+    margin: 0em;
+    padding: 0em;
+}
+.modelisation li{
+    list-style-type: none;
+}
+.photography img{
+    max-width: 100%;
+}
+.lampe_nuage img{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.lampe_nuage div{
+    width: 100%;
+}
+.round{
+    border-radius: 20px;
+}
+.print-only{
+    display: none;
+}
+.enligne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0em;
+}
+.hobby a{
+    text-decoration: none;
+}
+.legende{
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+    display: block;
+}

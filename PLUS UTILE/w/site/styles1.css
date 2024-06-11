@@ -1,0 +1,121 @@
+body {
+	background-color:#CCCCCC;           /* couleur de fond de la page */
+	font-family:arial,verdana,helvetica;   /* fonte et taille par defaut */
+	font-size:11px;
+}
+
+/* gestion des liens *****************************************************/
+a{
+	color: #828C73;
+	text-decoration: none;           /* on conserve le surlignement pour le survol */
+}
+a:hover  {
+	text-decoration: underline;
+}
+
+/* la page elle meme *******************************************************/
+#Page{
+	width: 756px;       /* largeur de la page */
+	margin: auto;       /* permet le centrage de la page */
+	text-align: left;     /* ecriture à gauche dans les blocks suivants */
+}
+#ModeTexteSeul{
+	display: none;     /* enleve la presentation en page html sans css lors de l'utilisation de la balise ModeTexte*/
+}
+
+/* gestion des menus horizontaux  ********************************************/
+#Partie2{
+	display: block;
+	width: 732px;
+	border: 7px solid white;
+	padding: 5px;
+	color: white;
+	background-color: #828C73;
+	float: left;
+}
+
+#Partie2 div#Partie2_1 {	float: left;   }
+#Partie2 div#Partie2_2 {	float: right; }
+
+#Partie2 div#Partie2_2 ul{
+	margin: 0px;
+	margin-top: 30px;
+}
+
+#Partie2 div#Partie2_2 ul li{
+ 	margin-right : 10px;
+ 	display: inline;
+	color: white;
+}
+#Partie2 div#Partie2_2 ul li #S_Chap{background-color: #A2AC93;} /*  style de l'affichage du nom du chapitre en cours dans le menu des chapitres */
+
+
+#Partie2 div#Partie2_2 a{
+	color: white;
+}
+#Partie2 div#Partie2_2 a:hover{
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+#Partie3{
+	/*display: block;*/
+	width: 742px;
+	border: 7px solid #fff;
+	/*margin: 0px;
+	padding: 0px;*/
+    float: left;               /* pour avoir le meme visuel avec firefox */
+}
+
+#Partie3 div#Partie3_2 {float: right;}
+#Partie3 div#Partie3_1 {float: left;}
+
+#Partie3 div#Partie3_2 div {
+	/*display: block;*/
+	width: 554px;
+	margin: 0px;
+	padding: 5px;
+	background-color: #d0d0d0;
+	/*overflow: auto;                /* appartion automatique des ascenseurs */
+}
+
+#Partie3 div#Partie3_1 ul {
+	/*display: block;*/
+	width: 150px;
+	height:300px;
+    border-right:8px solid white;
+	margin: 0px;
+	padding: 5px;
+	background-color: #d0d0d0;
+	overflow: auto;
+}
+
+#Partie3 div#Partie3_1 ul li {
+	display: inline;
+	margin: 10px;
+	padding: 5px;
+	line-height:40px
+}
+
+#Partie3 div#Partie3_1 ul li #S_Section { /*  style de l'affichage du nom de la section en cours dans le menu des sections */
+    border:1px solid white;
+	margin: -5px;
+	padding: 5px;
+	line-height:40px
+}
+
+/* gestion du bloc css BasDePage ***********************************************/
+#Partie4{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 5px;
+	color: white;
+	font-size: 10;
+}
+
+#Partie4 div#Partie4_2{ float: right;   }
+#Partie4 div#Partie4_1{ float: left;     }
+#Partie4 a            { color: white; }
+#Partie4 a img        { border: 0px; }
+

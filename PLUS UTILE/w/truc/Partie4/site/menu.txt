@@ -1,0 +1,14 @@
+*Menu AF,index1.php?chap=0&sec=0
+section0F,index1.php?chap=0&sec=0
+section1F,index1.php?chap=0&sec=1
+section2F,index1.php?chap=0&sec=2
+*Menu BF,index1.php?chap=1&sec=0
+section0F,index1.php?chap=1&sec=0
+section1F,index1.php?chap=1&sec=1
+*Menu CF,index1.php?chap=2&sec=0
+section0,index1.php?chap=2&sec=0
+section1,index1.php?chap=2&sec=1
+*Menu DF,index1.php?chap=3&sec=0
+section0,index1.php?chap=3&sec=0
+*Menu EF,index1.php?chap=4&sec=0
+section0F,index1.php?chap=4&sec=0

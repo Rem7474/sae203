@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creer un compte</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icone.png">
+    <link rel="stylesheet" type="text/css" href="../client/Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <form action="enregistreClient.php" method="POST">
+	
+      <label for="identifiant">nom :</label><br>
+      <input type="text" id="nom" name="P_nom" title="4 a 8 caracteres enminuscules"   required><br>
+      
+	  <label for="identifiant">prenom :</label><br>
+      <input type="text" id="prenom" name="P_prenom" title="4 a 8 caracteres enminuscules"   required><br>
+	  
+	  <label for="identifiant">telephone :</label><br>
+      <input type="text" id="tel" name="P_tel" title="numero de télephone valide format 0*********" pattern="^0\s*[1-9](?:[\s.-]*\d{2}){4}$"  required><br>
+	  
+	  <label for="mot_de_passe">Mot de passe :</label><br>
+      <input type="password" id="mot_de_passe" name="P_mdp" title="entre 8 et 12 caracteres, min 1 majuscule et un chiffre" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required><br>
+      
+	  <label for="email">Adresse e-mail :</label><br>
+      <input type="email" id="email" name="P_email"><br><br>
+	  
+      <button type="submit" name="Créer">Creer Compte</button>
+    </form> 
+  </body>
+</html>

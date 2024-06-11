@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../img/LOGO_remy.png">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../css/impression.css" media="print">
+    <link rel="stylesheet" href="../css/slider.css">
+    <script src="../js/slider.js"></script>
+    <meta charset="UTF-8">
+    <title>Rémy Cuvelier</title>
+    <meta name="author" content="Rémy Cuvelier">
+    <meta name="description" content="Site de présentation de Rémy Cuvelier">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <header class="barre">
+        <picture>
+            <source srcset="../img/LOGO_remy.webp">
+            <img class="logo" alt="Logo Rémy Cuvelier" src="../img/LOGO_remy.png">
+        </picture>
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">CV</a></li>
+                <li><a class="page_open">Interests and Activities</a></li>
+                <li class="langue"><a href="../hobby.html"><picture><img src="../img/french.png" alt="French Version"></picture></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="hobby">
+        <header>
+            <h1>Interests and Activities</h1>
+        </header>
+        <article class="video">
+            <h2>Photography and video</h2>
+            <p class="space">I love make photos and video for a long time ago. I learned photo before I have my first camera. It's only in 2017 that I had my first camera, a Nikon D5600<br>
+                My passion for video making it's coming later, that's why I want to upgrade my camera to have the 4K video recording.<br>
+                Software that I use : DaVinci Resolve
+            </p>
+            <h3>Video that I have made :</h3>
+            <div class="enligne">
+                <section>
+                    <h4>Video of high school student, May 2022</h4>
+                    <img class="print-only round" src="../img/miniature_Concert.jpg" alt="video thumbnail">
+                    <iframe class="noprint round" title="high school concert video" src="https://www.youtube.com/embed/1nK3tAm91O8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Video made after the high school concert, for the benefit of the Rwanda solidarity project of The ESCR.</p>
+                    <a class="noprint clique legende" target="_blank" href="https://www.escr74.com/ecole-magi-rwanda-1220">More information here</a>
+                </section>
+                <section>
+                    <h4>Video made for a competition, March 2022</h4>
+                    <img class="print-only round" src="../img/miniature_jeunes_reporters.jpg" alt="video thumbnail">
+                    <iframe class="noprint round" title="young environmental reporters video" src="https://www.youtube.com/embed/mRT3T0boKCg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>We have made this video for the young environmental reporters contest. We did it in a group of three, Lois is the focus of the interviews, his sister on the video script, and me for video editing. We won third place with this video.</p>
+                    <a class="noprint clique legende" target="_blank" href="https://jeunesreporters.org/reportages/vers-un-air-plus-propre-reportage-en-vallee-de-larve">More information here</a>
+                </section>
+            </div>
+            <section class="photography">
+                <h3>Some picture I took :</h3>
+                <div id="slider">
+                    <picture>
+                        <source media="(max-width:500px)" srcset="../img/eglise_400.webp" id="slide_400_webp">
+                        <source media="(max-width:500px)" srcset="../img/eglise_400.jpg" id="slide_400_jpg">
+                        <source media="(min-width:500px) and (max-width:800px)" srcset="../img/eglise_700.webp" id="slide_700_webp">
+                        <source media="(min-width:500px) and (max-width:800px)" srcset="../img/eglise_700.jpg" id="slide_700_jpg">
+                        <source media="(min-width:801px)" srcset="../img/eglise_1000.webp" id="slide_1000_webp">
+                        <img src="../img/eglise_1000.jpg" alt="Images" id="slide_1000_jpg" class="round">
+                    </picture>
+                    <div class="noprint" id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
+                    <div class="noprint" id="suivant" onclick="ChangeSlide(1)">&gt;</div>
+                </div>
+            </section>
+        </article>
+        <div class="lampe_nuage">
+        <article class="modelisation">
+            <h2>Cloud Lamp Project</h2>
+            <h3>This project brought together many of my passions</h3>
+            <h3>3D modeling and printing</h3>
+            <p>Objective : make 2 lamps connected together,<br>
+                when the buttons are turned on one lamp, the other lamp changes to the color selected and vice versa.
+            </p>
+            <div>
+                <picture>
+                    <source media="(max-width:500px)" srcset="../img/nuage3d1_400.webp">
+                    <source media="(max-width:500px)" srcset="../img/nuage3d1_400.jpg">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuage3d1_700.webp">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuage3d1_700.jpg">
+                    <source media="(min-width:801px)" srcset="../img/nuage3d1.webp">
+                    <img class="round" src="../img/nuage3d1.jpg" alt="cloud lamp 3D">
+                </picture>
+                <picture>
+                    <source media="(max-width:500px)" srcset="../img/nuage3d2_400.webp">
+                    <source media="(max-width:500px)" srcset="../img/nuage3d2_400.jpg">
+                    <source  media="(min-width:500px) and (max-width:800px)" srcset="../img/nuage3d2_700.webp">
+                    <source  media="(min-width:500px) and (max-width:800px)" srcset="../img/nuage3d2_700.jpg">
+                    <source media="(min-width:801px)" srcset="../img/nuage3d2.webp">
+                    <img class="round" src="../img/nuage3d2.jpg" alt="cloud lamp 3D">
+                </picture>
+                <p class="legende">3D model before printing<br>
+                    Software : SolidWorks
+                </p>
+            </div>
+        </article>
+        <article class="elec">
+            <h2>electronics and home automation</h2>
+            <div>
+                <picture>
+                    <source media="(max-width:500px)" srcset="../img/nuageelec1_400.webp">
+                    <source media="(max-width:500px)" srcset="../img/nuageelec1_400.jpg">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuageelec1_700.webp">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuageelec1_700.jpg">
+                    <source media="(min-width:801px)" srcset="../img/nuageelec1.webp">
+                    <img class="round" src="../img/nuageelec1.jpg" alt="cloud lamp">
+                </picture>
+                <picture>
+                    <source media="(max-width:500px)" srcset="../img/nuageelec2_400.webp">
+                    <source media="(max-width:500px)" srcset="../img/nuageelec2_400.jpg">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuageelec2_700.webp">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuageelec2_700.jpg">
+                    <source media="(min-width:801px)" srcset="../img/nuageelec2.webp">
+                    <img class="round" src="../img/nuageelec2.jpg" alt="cloud lamp">
+                </picture>
+                <p class="legende">Addition of electronic components</p>
+            </div>
+            <p>How work electronic ? It's simple : the "heart" of the lamp is an ESP32, a microcontroller who integrates the Wifi and Bluetooth.<br>
+                The ESP32 is connected to an LED strip who can control each led (WS2812B precisely).<br>
+                The four potentiometers are used to select the color (red, blue, green and white values).<br>
+                Finally to power the whole thing : a Li-Ion 18650 battery in 3.7V, with a capacity of 2.5Ah and a TP046 charging module (with USB-C port for charging)
+            </p>
+            <div>
+                <picture>
+                    <source media="(max-width:500px)" srcset="../img/nuage1_400.webp">
+                    <source media="(max-width:500px)" srcset="../img/nuage1_400.jpg">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuage1_700.webp">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuage1_700.jpg">
+                    <source media="(min-width:801px)" srcset="../img/nuage1.webp">
+                    <img class="round" src="../img/nuage1.jpg" alt="cloud lamp">
+                </picture>
+                <picture>
+                    <source media="(max-width:500px)" srcset="../img/nuage2_400.webp">
+                    <source media="(max-width:500px)" srcset="../img/nuage2_400.jpg">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuage2_700.webp">
+                    <source media="(min-width:500px) and (max-width:800px)" srcset="../img/nuage2-700.jpg">
+                    <source media="(min-width:801px)" srcset="../img/nuage2.webp">
+                    <img class="round" src="../img/nuage2.jpg" alt="cloud lamp">
+                </picture>
+                <p class="legende">Photos of the cloud lamp after 3D printing and addition of electronic components.</p>
+            </div>
+            <p>
+                The code who is running in the ESP32 is written in C++ with the Arduino IDE.<br>
+                The lamp is connected to the internet through wifi and it's connected to an MQTT server,<br>
+                and we can control it with a web site on our smartphone.<br>
+                MQTT is a protocol based on TCP/IP that allows you to send and receive messages.<br>
+                When the button is pressed, the ESP32 sends a signal to the MQTT server,<br>
+                which send information on the other lamp to turn on the LED strip with the selected color.
+            </p>
+        </article>
+    </div>
+    </main>
+    <footer>
+        <h3>Find me on :</h3>
+        <ul>
+            <li>
+                <a href="https://youtube.com/@remycuvelier" target="_blank">
+                    <picture>
+                        <img class="logo_footer" alt="Youtube" src="../img/yt.png">
+                    </picture>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/remycuvelier" target="_blank">
+                    <picture>
+                    <img class="logo_footer" src="../img/linkedin.png" alt="LinkedIn">
+                    </picture>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

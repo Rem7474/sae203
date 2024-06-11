@@ -1,0 +1,151 @@
+/* ---------- Header ---------- */
+header {
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 20px;
+}
+
+.header-top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.logo {
+	flex: 0 0 150px;
+}
+
+.logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.header-right {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	flex: 1;
+}
+
+.header-right a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #1a1a1a;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color
+
+/* Footer */
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer .logo {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+footer .social-media {
+  margin-bottom: 20px;
+}
+
+footer .social-media a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #222;
+  text-align: center;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .social-media a:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+  
+  footer .logo {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  footer ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  footer .social-media a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+

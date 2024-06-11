@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body{
+background-color: white;
+}
+h1{
+	font-size: 16pt;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.title{
+    font-size: 16pt;
+}
+h2{
+	font-size: 13pt;
+	text-transform: capitalize;
+}
+h3{
+	font-size: 12pt;
+    margin-top: 0.5cm;
+}
+p{
+    font-size: 11pt;
+}
+ul{
+    margin-top: 0em;
+    margin-left: 0em;
+    padding-left: 0em;
+}
+.barre{
+    display: none;
+}
+footer{
+    display: none;
+}
+.CV header{
+    margin-top: 12pt;
+    margin-bottom: 8pt;
+}
+.entete{
+    display: inline-flex;
+}
+.left{
+    width: 40%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0em;
+    padding-right: 8pt;
+}
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0em;
+    padding-left: 8pt;
+}
+.ligne{
+    display: inline-flex;
+    width: inherit;
+}
+.contact ul{
+    display: grid;
+}
+.contact img{
+    height: 12pt;
+    width: auto;
+}
+
+.experiences img{
+    height: 25pt;
+    width: auto;
+}
+section{
+    margin-top: 16pt;
+}
+.photography img{
+    height: 9.5cm;
+    margin-bottom: 0.5cm;
+}
+.formation li, .experiences li{
+    list-style-type: disc;
+}
+.competences li{
+    text-align: initial;
+}
+.noprint{
+    display: none;
+}
+.print-only{
+    display: block;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.enligne section{
+    margin-top: 0em;
+}
+.enligne{
+    display: flex;
+}
+.video .enligne section{
+    width: 40%;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+.modelisation{
+    margin-top: 1cm;
+}
+.modelisation section{
+    display: inline-block;
+}
+.modelisation img, .elec img{
+    height: 3cm;
+}
+.elec section{
+    display: inline-block;
+}
+.elec{
+    margin-top: 0.5cm;
+}
+.legende{
+    margin-bottom: 0;
+}
+.hobby{
+    width: auto;
+}
+article{
+    margin-top: 0.5cm;
+}

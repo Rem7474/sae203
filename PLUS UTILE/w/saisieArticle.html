@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Saisie d'articles</title>
+		<meta charset="utf-8"/>
+	</head>
+
+	<body>
+		ENTREZ UN  NOUVEL ARTICLE
+		<table BORDER=1 BGCOLOR="#CCCCCC">
+		<form method="GET" action="enregistreArticle.php">
+		<tr>
+			<td> Nom du nouvel article à créer : </td>
+			<td> <input type="text" size=15 name="P_nomArticle" pattern="[A-Za-z0-9 ]+" required="1"> </td>
+            <td> de prix <input type="text" size=6 name="P_prix" pattern="[0-9]+" required="1"> </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td> <input type="submit" value="Enregistrer l'article"></td>
+		</tr>
+		</form>
+		</table>
+
+	</body>
+</html>
